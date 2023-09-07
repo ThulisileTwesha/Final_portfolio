@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  /*EXPERIENCES*/
+
+.experience{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+   
+  }
+  
+  .experienceHeading{
+  width: 100%;
+  height: 100vh;
+     
+  }
+  .experiencePara{
+    width: 600px; 
+  }
