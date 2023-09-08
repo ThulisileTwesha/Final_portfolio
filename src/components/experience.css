@@ -22,3 +22,24 @@
   .experiencePara{
     width: 600px; 
   }
+  .experiencePara p{
+    background-color:rgba(250, 235, 215, 0.808);
+    width: 480px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:0 8px 14px 0 rgba(0,0,0,0.2) ; 
+    transition: transform 0.10s, background-color 0.5s, color 0.5s;
+
+    
+  
+  }
+  .experiencePara p :hover{
+    transform: scale(1.0);
+    background-color: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
+    rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+ color: coral;
+   
+  }
+  

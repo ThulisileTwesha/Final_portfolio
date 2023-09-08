@@ -3,10 +3,26 @@
     padding: 0;
     box-sizing: border-box; 
   }
-/* body{
-  background: url('background.jpeg');
+body{
 
-  } */
+  } 
+  .backImage{
+    background-image: url("https://www.idalko.com/wp-content/uploads/2016/12/pexels-photo-48727-min.webp") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height:100vh;
+    width: 100%;
+  
+  
+    
+   
+    
+    
+
+
+  }
+  
 #home{
   /*display: flex;*/
   justify-content: space-around;

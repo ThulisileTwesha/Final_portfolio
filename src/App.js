@@ -15,8 +15,8 @@ function App() {
       <Anav />
       <Home />
       <About />
-      <Education/>
-      <Experience />
+      <Experience/>
+      <Education />
       <Skills />
       <Projects />
       <Contact />

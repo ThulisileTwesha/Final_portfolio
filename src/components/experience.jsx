@@ -13,7 +13,8 @@ function experience() {
               <strong> Software Developer Intern/ Junior Software Developer</strong>
               <br/> 
                           
-              As a Junior Software Developer, .<br/>
+              As a Junior Software Developer, I help create programs and participate in test runs. 
+               I am also part of a paired programming group to complete tasks with senior developers.<br/>
               <ul>
                 <li>6 months CapaCiTi Career Acceleartor</li>
                 <li>Address: 97 Durham Avenue, Salt River, Cape Town, 8000</li>
@@ -27,7 +28,7 @@ function experience() {
           <p>
             01 November 2021- 30 September 2022  
             <br/>
-            <strong>Educator Assistant/ Administartive Assistant</strong>
+            <strong>Educator Assistant/ Administrative Assistant</strong>
             <br/> 
                         
             As an Educator Assistant, I am enthusiastic and competent, experienced office assistant 
