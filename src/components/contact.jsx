@@ -4,6 +4,7 @@ import react, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import linkedin from '../components/images/linkedin.png';
 import github from '../components/images/github.png';
+import { useState, useEffect } from "react";
 
 export const ContactUs = () => {
   const form = useRef();
@@ -19,24 +20,102 @@ export const ContactUs = () => {
       });
       e.target.reset()
   };
+
+  /*form validation*/
+
+  const [inputFields, setInputFields] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+  const [errors, setErrors] = useState({});
+  const [submitting, setSubmitting] = useState(false);
+
+  const validateValues = (inputValues) => {
+    let errors = {};
+    if (inputValues.name.length < 2) {
+      errors.name = "Name is too short";
+    }
+    if (inputValues.email.length < 5) {
+      errors.email = "Email is too short";
+    }
+    if (inputValues.message.length < 2) {
+      errors.message = "Message is too short";
+    }
+   
+    return errors;
+  };
+  const handleChange = (e) => {
+    setInputFields({ ...inputFields, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setErrors(validateValues(inputFields));
+    setSubmitting(true);
+  };
+
+  const finishSubmit = () => {
+    console.log(inputFields);
+  };
+
+  useEffect(() => {
+    if (Object.keys(errors).length === 0 && submitting) {
+      finishSubmit();
+    }
+  }, [errors]);
   return (
     <div className="container " id="contactMe">
+      {Object.keys(errors).length === 0 && submitting ? (
+          <span className="success">Successfully submitted ✓</span>
+        ) : null}
+
         <div className="center-contact m-auto"><h1>Contact</h1></div>  
-                <div className="d-md-flex">
-                <div className="m-5 col-md-5" id="allForm">
-                <div className='formHeading'>
-                  <h2>Get in touch:</h2>
-                      <div className='form'>
-                        <form  ref={form}  onSubmit={sendEmail}> 
-                          <input name type="text" class="feedback-input" placeholder="Name" />
-
-                          <input name type="text" class="feedback-input" placeholder="Email"  />
-
-                          <textarea name class="feedback-input" placeholder="Message"   ></textarea>
-                          <input type="submit"  value="SUBMIT" />
-                        </form>
-                      </div>  
+          <div className="d-md-flex">
+            <div className="m-5 col-md-5" id="allForm">
+              <div className='formHeading'>
+                <h2>Get in touch:</h2>
+                <div className='form'>
+                <form onSubmit={handleSubmit}>
+                  <div>
+                    <input class="feedback-input" placeholder="Name"
+                      type="text"
+                      name="name"
+                      value={inputFields.name}
+                      onChange={handleChange}
+                      style={{ border: errors.name ? "2px solid red" : null }}
+                    ></input>
+                    {errors.name ? (
+                      <p className="error">Name should not be empty</p>
+                    ) : null}
+                    
+                    <input class="feedback-input" placeholder="Email"
+                      type="email"
+                      name="email"
+                      value={inputFields.email}
+                      onChange={handleChange}
+                      style={{ border: errors.email ? "2px solid red" : null }}
+                    ></input>
+                    {errors.email ? (
+                      <p className="error">
+                        Email should be at least 15 characters long
+                      </p>
+                    ) : null}
+                  
+                    <textarea class="feedback-input" placeholder="Message"
+                      type="text"
+                      name="message"
+                      value={inputFields.message}
+                      onChange={handleChange}
+                      style={{ border: errors.message ? "2px solid red" : null }}
+                    ></textarea>
+                    {errors.message ? <p className="error">Message should not be empty</p> : null}
                   </div>
+                  <button type="submit">Submit</button>
+                </form>
+
+              </div>  
+              </div>
             </div>
       
           <div className="col-md-4" id="allIcon">
