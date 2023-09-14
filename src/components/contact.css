@@ -19,12 +19,13 @@ h1{
   }
  #allForm{}
     
- @media (min-width:768px) {
+ @media (min-width:390px)  and (max-width:450px){
      #allIcon{
     position: relative;
-    top: 200px;
-
+    bottom: 20px;
  }
+ 
+
  }
 
  
@@ -101,5 +102,7 @@ h1{
     font-weight:700;
   }
   [type="submit"]:hover { background:#CC4949; }
-  
+
+
+
   

@@ -41,10 +41,11 @@
      margin: 0px 10px 10px 10px; 
   }
   
-  @media screen and (min-width: 400px) {
+  @media screen and (min-width: 390px)  {
     .timeline {
      display: grid;
     grid-template-columns: 1fr 3px 1fr; 
+    
     }
     .timeline-middle {
       position: relative;
@@ -65,5 +66,12 @@
       background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%);
+    }
+    .edHeading{
+      position: relative;
+      top: 90px;
+      display: flex;
+      justify-content: center;
+     
     }
   }

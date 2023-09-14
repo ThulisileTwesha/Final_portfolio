@@ -18,6 +18,7 @@ export const ContactUs = () => {
   });
   const [errors, setErrors] = useState({});
   const [submitting, setSubmitting] = useState(false);
+  const[formSubmitted, setFormSubmitted] = useState(false);
 
   const validateValues = (inputValues) => {
     let errors = {};
@@ -48,13 +49,18 @@ export const ContactUs = () => {
       sendEmail();
     }
   };
+  
 
   const sendEmail = () => {
     emailjs.sendForm('service_hfcx67a', 'template_aa8w57c', form.current, 'yZPcPORNnecZefv_j')
       .then((result) => {
         console.log(result.text);
+        setTimeout(() => {
+          setFormSubmitted(true);
+        },);
       }, (error) => {
         console.log(error.text);
+        setFormSubmitted(true);
       });
 
     // Reset the form fields
@@ -67,16 +73,19 @@ export const ContactUs = () => {
       message: ""
     });
   };
-
-  const finishSubmit = () => {
+ 
+   const finishSubmit = () => {
     console.log(inputFields);
   };
+  
 
-  useEffect(() => {
-    if (Object.keys(errors).length === 0 && submitting) {
+  
+
+   useEffect(() => {
+   if (Object.keys(errors).length === 0 && submitting) {
       finishSubmit();
-    }
-  }, [errors]);
+     }
+  }, );
   function onChange(value) {
     console.log("Captcha value:", value);
   }
@@ -137,7 +146,12 @@ export const ContactUs = () => {
                 />
                 <br />
                 <button type="submit">Submit</button>
+               
               </form>
+              {formSubmitted &&(
+                  <p className="text-success">Message successfully submitted!</p>
+                )}
+              
             </div>  
           </div>
         </div>

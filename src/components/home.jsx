@@ -27,8 +27,8 @@ function home() {
         <br/>
         <br/>
         <div className="btns" style={{position:"relative", left:"-10%", }}>
-        <Button variant="secondary">Download My CV</Button>{' '}
-        <Button variant="secondary">Get in touch</Button>{''}
+        <Button variant="secondary" className="btn1">Download My CV</Button>{' '}
+        <Button variant="secondary" className="btn2">Get in touch</Button>{''}
       
         </div>
       
