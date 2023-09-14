@@ -102,6 +102,10 @@ h1{
     font-weight:700;
   }
   [type="submit"]:hover { background:#CC4949; }
+  #allIcon{
+    position: relative;
+    top: 200px;
+ }
 
 
 
