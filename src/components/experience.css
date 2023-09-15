@@ -7,7 +7,7 @@
   /*EXPERIENCES*/
 
 .experience{
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -15,9 +15,10 @@
    
   }
   
-  .experienceHeading{
+  #experiences{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
+  
  
      
   }
@@ -27,7 +28,7 @@
   .experiencePara p{
     background-color:rgba(250, 235, 215, 0.808);
     width: 500px;
-    height: 350px;
+    height: 300px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -46,7 +47,7 @@
    
   }
 
-  @media (min-width:390px) and (max-width:500px) {
+  @media (min-width:390px) and (max-width:480px) {
     .experienceHeading{
       width: 100%;
       height: 100vh;

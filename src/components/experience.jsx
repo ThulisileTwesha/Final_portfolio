@@ -2,7 +2,7 @@ import React from "react";
 import './experience.css';
 
 function experience() {
-  return <div className="container" id="experiences">
+  return <div /*className="container"*/ id="experiences">
              <div className="center-contact mx-auto"><h1>Experience</h1> </div>  
   
      <div className='experience'>

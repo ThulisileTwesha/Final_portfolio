@@ -7,7 +7,7 @@ import cooking from '../components/images/website2.webp';
 
 function Projects() {
   return (
-    <div className="container" id="projects">
+    <div /*className="container"*/ id="projects">
 
  
 <h1>Projects</h1>

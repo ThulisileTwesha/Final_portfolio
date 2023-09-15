@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css';
 export default function about() {
   return (
-    <div className='container_about' id='about'> 
+    <div /*className='container_about'*/ id='about'> 
     <h1 className="text-center text-dark my-5">About</h1>
 
      <div className='about2'> 

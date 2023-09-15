@@ -4,16 +4,14 @@
     box-sizing: border-box; 
   }
  
-  .backImage{
-    /*background-image: url("https://www.idalko.com/wp-content/uploads/2016/12/pexels-photo-48727-min.webp") ;
+  .backImage, #contactMe   ,#experiences, #skillHeading{
+     background-image: url("https://img.freepik.com/free-vector/bubbles-beige-background_53876-99549.jpg?w=900&t=st=1694769832~exp=1694770432~hmac=414cff8574d34b47cb5f22b2b9a87a9e21b3a00fb3b7559c23d6bd1fd1fbcc4f");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
     height:100vh;
-    width: 100%;*/
+    width: 100%;
     
-
-
   } 
   
 #home{
@@ -30,10 +28,8 @@
   width: 400px;
   text-align: justify;
   
- 
- 
 }
-#b1 a{
+/*#b1 a{
   margin: 20px;
   padding: 10px; 
   text-decoration: none;
@@ -41,8 +37,8 @@
   border-radius: 8px;
   background-color: beige;
  
-}
-@media(min-width:390px) and (max-width:500px){
+}*/
+@media(min-width:390px) and (max-width:480px){
   body{
     overflow-x: hidden;
   }

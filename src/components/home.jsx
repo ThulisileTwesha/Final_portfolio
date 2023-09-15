@@ -10,10 +10,11 @@ import Button from 'react-bootstrap/Button';
 function home() {
 
   return (
-    <div  className='backImage' id="homeOpen" >
+    
+  <div  className='backImage' id="homeOpen">
     <div className="container d-md-flex" id='home' >
       <div className="m-5"><Image src={image} fluid /></div> 
-       <div className="m-5" id="b1" style={{position:"relative", left:"-10%", top:"40px"}}>
+       <div /*className="m-5"*/ id="b1" style={{position:"relative", left:"-10%", top:"30px"}}>
         <h3 className="text-start text-dark my-5">Thulisile Twesha <br/>
          Junior Software Developer</h3>
         

@@ -12,8 +12,8 @@ import pic from '../components/images/react.png';
 
 function skills() {
   return (
-    <div className="container " id="skillHeading">
-            <div className="center-contact mx-auto">        <h1>Skills</h1>  </div>  
+    <div /*className="container "*/ id="skillHeading">
+            <div className="center-contact mx-auto"><h1>Skills</h1></div>  
        
       <div className="m-5 d-md-flex" id="skills">
         <div className="m-5" id="box"><img src={python} alt='' width={150}></img></div>

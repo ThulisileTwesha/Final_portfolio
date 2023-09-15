@@ -13,7 +13,8 @@ h1{
     /*display: flex;*/
     flex-direction: column;
     width: 100%;
-    /*height: 100vh;*/
+    /* height: 100vh;
+    */
     
     
   }
@@ -81,7 +82,7 @@ h1{
     transform: rotateY(180deg); 
   } 
 
-  @media (min-width:390px)  and (max-width:500px){
+  @media (min-width:390px)  and (max-width:480px){
     #startProjects{
       /* display: flex;*/
       width: 100%;
@@ -96,7 +97,7 @@ h1{
       flex-direction: column;
       width: 100%;
       margin-right: 500px;
-      /*height: 100vh;*/
+      height: 100vh;
       
       
     }
