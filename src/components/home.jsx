@@ -11,10 +11,10 @@ function home() {
 
   return (
     
-  <div  className='backImage' id="homeOpen">
+  <div  className='' id="homeOpen">
     <div className="container d-md-flex" id='home' >
-      <div className="m-5"><Image src={image} fluid /></div> 
-       <div /*className="m-5"*/ id="b1" style={{position:"relative", left:"-10%", top:"30px"}}>
+      <div className="m-5" id="picture"><Image src={image} fluid /></div> 
+       <div className="m-5" id="b1" style={{position:"relative", left:"-10%", top:"30px"}}>
         <h3 className="text-start text-dark my-5">Thulisile Twesha <br/>
          Junior Software Developer</h3>
         
@@ -28,8 +28,8 @@ function home() {
         <br/>
         <br/>
         <div className="btns" style={{position:"relative", left:"-10%", }}>
-        <Button variant="secondary" className="btn1">Download My CV</Button>{' '}
-        <Button variant="secondary" className="btn2">Get in touch</Button>{''}
+        <Button variant="secondary" className="btn1" href="">Download My CV</Button>{' '}
+        <Button variant="secondary" className="btn2" href="#contactMe">Get in touch</Button>{''}
       
         </div>
       

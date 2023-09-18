@@ -20,17 +20,17 @@ function about() {
                         <div className="timeline-circle"></div>
                     </div>
                     <div className="timeline-component timeline-content">
-                        <h3>Tertiary</h3>
+                        <h2><strong>Tertiary</strong></h2>
                         <p> 
-                            Course: Bcom Hons (IS) <br/>
+                            <b>Course</b>: Bcom Hons (IS) <br/>
                             <br/>
-                            Institution: UWC <br/>
+                            <b>Institution</b>: UWC <br/>
                             <br/>
-                            Year obtained: Current
+                            <b>Year obtained</b>: Current
                         </p>
                     </div>
                     <div className="timeline-component timeline-content">
-                        <h3>Tertiary</h3>
+                        <h2><strong>Tertiary</strong></h2>
                         <p>
                             <b>Course</b>  : Bachelor of Administration <br/>
                             <br/>
@@ -48,13 +48,13 @@ function about() {
                         <div className="timeline-circle"></div>
                     </div>
                     <div className=" timeline-component timeline-content">
-                        <h3>High school</h3>
+                        <h2><strong>High School</strong></h2>
                         <p>
-                            Course:National Senior Certificate <br/>
+                            <b>Course</b>: National Senior Certificate <br/>
                             <br/>
-                            Institution: Masibambane Secondary School <br/>
+                            <b>Institution</b>: Masibambane Secondary School <br/>
                             <br/>
-                            Year obtained: 2018
+                            <b>Year obtained</b>: 2018
                         </p>
                     </div>
 

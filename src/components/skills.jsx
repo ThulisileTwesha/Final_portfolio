@@ -11,8 +11,8 @@ import pic from '../components/images/react.png';
 
 
 function skills() {
-  return (
-    <div /*className="container "*/ id="skillHeading">
+  return (<div className="" >  
+    <div className="container " id="">
             <div className="center-contact mx-auto"><h1>Skills</h1></div>  
        
       <div className="m-5 d-md-flex" id="skills">
@@ -25,6 +25,7 @@ function skills() {
         <div className="m-5" id="box"><img src={picture} alt='' width={150}></img></div>
         <div className="m-5" id="box"><img src={pic} alt='' width={150}></img></div>
       </div>
+    </div>
     </div>
   );
 }

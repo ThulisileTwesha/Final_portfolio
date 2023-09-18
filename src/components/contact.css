@@ -97,10 +97,14 @@ h1{
 
 
 
- @media (min-width:390px)  and (max-width:480px){
+ @media (min-width:375px)  and (max-width:400px){
   #allIcon{
  position: relative;
  top: 10%;
+}
+.map{
+ 
+  height: 200px;
 }
 
 }

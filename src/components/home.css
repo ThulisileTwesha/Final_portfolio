@@ -4,7 +4,7 @@
     box-sizing: border-box; 
   }
  
-  .backImage, #contactMe   ,#experiences, #skillHeading{
+  /*  ,#experiences */.backImage{
      background-image: url("https://img.freepik.com/free-vector/bubbles-beige-background_53876-99549.jpg?w=900&t=st=1694769832~exp=1694770432~hmac=414cff8574d34b47cb5f22b2b9a87a9e21b3a00fb3b7559c23d6bd1fd1fbcc4f");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -29,48 +29,39 @@
   text-align: justify;
   
 }
-/*#b1 a{
-  margin: 20px;
-  padding: 10px; 
-  text-decoration: none;
-  color: black;
-  border-radius: 8px;
-  background-color: beige;
- 
-}*/
-@media(min-width:390px) and (max-width:480px){
-  body{
-    overflow-x: hidden;
-  }
-  #home{
-    /*display: flex;*/
-    justify-content: space-around;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh; 
-   
+
+@media(min-width:375px) and (max-width:400px){
   
+  h3{
+    font-size: 15px;
   }
+
   #b1 p{
     width: 300px;
     text-align: justify;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .btns{
     display: flex;
-    align-items: center;
-    flex-direction: column;
- 
-    
+    flex-direction: row;
+    font-size: 10px;
   }
   .btn1{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 10px;
+    margin-left: 50px;
    
   
   }
   .btn2{
-    
- 
+    font-size: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
   }
+
  
 
   
