@@ -3,6 +3,8 @@ import './home.css';
 import image from '../components/images/thully.png';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+import cv from '../components/thuli.pdf';
+
 
 
 
@@ -28,7 +30,7 @@ function home() {
         <br/>
         <br/>
         <div className="btns" style={{position:"relative", left:"-10%", }}>
-        <Button variant="secondary" className="btn1" href="">Download My CV</Button>{' '}
+        <Button variant="secondary" className="btn1" href={cv} target="_blank">Download My CV</Button>{' '}
         <Button variant="secondary" className="btn2" href="#contactMe">Get in touch</Button>{''}
       
         </div>

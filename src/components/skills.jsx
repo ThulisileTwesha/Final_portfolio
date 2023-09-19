@@ -12,7 +12,7 @@ import pic from '../components/images/react.png';
 
 function skills() {
   return (<div className="" >  
-    <div className="container " id="">
+    <div className="container " id="skillsStart">
             <div className="center-contact mx-auto"><h1>Skills</h1></div>  
        
       <div className="m-5 d-md-flex" id="skills">

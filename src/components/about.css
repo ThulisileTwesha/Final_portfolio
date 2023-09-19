@@ -14,11 +14,21 @@
   }
   #paragraph {
     text-align: justify;
-    width:900px;
-    margin-left: 200px;
+    /* width:800px;
+    height: 500px; */
   
   }
+  .about2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+  }
+  #aboutInfo{
+    /* position: relative;
+    bottom: 0px; */
+  }
 
   @media(min-width:375px) and (max-width:400px){
 
@@ -29,18 +39,8 @@
       text-align: justify;
       font-size: 12px;
       margin-left: 15px;
-   
-      
-     
     }
    
-    #aboutInfo{
-      
-      
-      font-size: 8px;
-      
-     
-    }
    
   
 

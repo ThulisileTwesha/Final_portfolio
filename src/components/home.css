@@ -4,8 +4,8 @@
     box-sizing: border-box; 
   }
  
-  /*  ,#experiences */.backImage{
-     background-image: url("https://img.freepik.com/free-vector/bubbles-beige-background_53876-99549.jpg?w=900&t=st=1694769832~exp=1694770432~hmac=414cff8574d34b47cb5f22b2b9a87a9e21b3a00fb3b7559c23d6bd1fd1fbcc4f");
+  .backImage{
+    background-image: url("https://img.freepik.com/free-vector/bubbles-beige-background_53876-99549.jpg?w=900&t=st=1694769832~exp=1694770432~hmac=414cff8574d34b47cb5f22b2b9a87a9e21b3a00fb3b7559c23d6bd1fd1fbcc4f");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
@@ -15,7 +15,7 @@
   } 
   
 #home{
-  /*display: flex;*/
+  
   justify-content: space-around;
   flex-direction: row;
   width: 100%;
