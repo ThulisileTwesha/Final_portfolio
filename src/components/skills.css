@@ -31,7 +31,7 @@
 #box:hover{
   transform: rotate(360deg);
 }
-@media (min-width:375px)and (max-width:400px) {
+@media (min-width:375px)and (max-width:450px) {
   #skills{
     /* display: flex;
     flex-direction: row;

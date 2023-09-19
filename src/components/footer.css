@@ -1,0 +1,28 @@
+.footer {
+    background-color:whitesmoke;
+    color:grey;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+
+  @media (max-width:375px) and (max-width:450px) {
+    .footer {
+        background-color:whitesmoke;
+        color:grey;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+        margin-top: auto;
+      } 
+      
+      .footer p {
+        margin: 0;
+      }
+
+
+    
+  }

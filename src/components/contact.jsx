@@ -167,8 +167,8 @@ export const ContactUs = () => {
             ></iframe>
           </div>
           <div className='Icons'>
-            <div className='boxIcons'><a href='https://www.linkedin.com/in/thulisiletwesha/' target='blank'><img src={linkedin} alt='' width={50}></img></a></div>
-            <div className='boxIcons'><a href='https://github.com/ThulisileTwesha'><img src={github} alt='' width={45}></img></a></div>
+            <div className='boxIcons'><a href='https://www.linkedin.com/in/thulisiletwesha/' target='_blank'><img src={linkedin} alt='' width={50}></img></a></div>
+            <div className='boxIcons'><a href='https://github.com/ThulisileTwesha' target="_blank"><img src={github} alt='' width={45}></img></a></div>
           </div>
         </div>
       </div>
