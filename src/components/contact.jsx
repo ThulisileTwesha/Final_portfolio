@@ -140,7 +140,7 @@ export const ContactUs = () => {
                   ></textarea>
                   {errors.message ? <p className="error">Message should not be empty</p> : null}
                 </div>
-                <ReCAPTCHA
+                <ReCAPTCHA className="recaptcha"
                     sitekey="6Lf3vCAoAAAAAMMKWk_muZ_eM9XSb7SLxwYkHPae"
                     onChange={onChange}
                 />

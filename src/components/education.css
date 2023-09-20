@@ -54,7 +54,7 @@
     .timeline {
      display: grid;
     grid-template-columns: 1fr 3px 1fr; 
-    transform: scale(0.5);
+    transform: scale(0.5); 
     
     }
     .timeline-middle {

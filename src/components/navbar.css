@@ -1,3 +1,10 @@
 #links{
     font-size: 15px;
 }
+.bg-body-tertiary{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
