@@ -88,7 +88,9 @@ export const ContactUs = () => {
   }, );
   function onChange(value) {
     console.log("Captcha value:", value);
+    setRecaptchaCompleted(true);
   }
+  const [recaptchaCompleted, setRecaptchaCompleted] = useState(false);
 
   return (<div className="">
     <div className="container " id="contactMe">
@@ -145,7 +147,7 @@ export const ContactUs = () => {
                     onChange={onChange}
                 />
                 <br />
-                <button type="submit">Submit</button>
+                <button type="submit" disabled={!recaptchaCompleted}>Submit</button>
                
               </form>
               {formSubmitted &&(
