@@ -1,11 +1,12 @@
 import React from "react";
 import './experience.css';
+import photo from '../components/images/photo.jpg';
 
 function experience() {
   return<div className="" > <div className="container" id="experiences">
              <div className="center-contact mx-auto"><h1>Experience</h1> </div>  
   
-     <div className='experience'>
+     {/* <div className='experience'>
         <div className='experiencePara'>
           <p>
               30 January 2023 - Present  
@@ -47,7 +48,24 @@ function experience() {
         </div>
                    
       </div>
-               
+                */}
+                  <div class = "card">
+    <img src={photo}alt=""></img>
+    <div class="card-content">
+      <h2>
+        Card Heading
+      </h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt exercitationem iste, voluptatum, quia explicabo laboriosam rem adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa asperiores harum? Dicta odio aut hic.
+      </p>
+      <a href="#" class="button">
+        Find out more 
+        <span class="material-symbols-outlined">
+          arrow_right_alt
+        </span>
+      </a>
+    </div>
+  </div>
 
 
 
@@ -56,7 +74,8 @@ function experience() {
 
 
 
-  </div></div>;
+  </div>
+</div>;
 }
 
 export default experience;
