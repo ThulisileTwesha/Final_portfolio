@@ -82,13 +82,13 @@ h1{
     transform: rotateY(180deg); 
   } 
 
-  @media (min-width:375px)  and (max-width:450px){
+  @media (min-width:320px)  and (max-width:450px){
     #startProjects{
       width: 100%;
       justify-content: space-evenly;
     
       position: relative;
-      right: 50px; 
+      right: 100px; 
       bottom: 60px;
       
     }

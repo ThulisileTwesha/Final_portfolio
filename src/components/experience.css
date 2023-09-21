@@ -71,5 +71,32 @@
       
     
     }
+
   }
+  /*small mobile screens*/
+  @media (min-width:320px) and (max-width:389px) {
+    .experienceHeading{
+      width: 100%;
+      height: 100vh;
   
+      }
+      h1{
+        font-size: 10px;
+     
+      }
+    .experiencePara p{
+      background-color:rgba(250, 235, 215, 0.808);
+      width: 250px;
+      /* height: 300px; */
+      font-size: 8px;
+      
+      border-radius: 10px;
+      size: 5px;
+      box-shadow:0 8px 14px 0 rgba(0,0,0,0.2) ; 
+      transition: transform 0.10s, background-color 0.5s, color 0.5s;
+  
+      
+    
+    }
+    
+  }
