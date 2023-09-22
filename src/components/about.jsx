@@ -1,18 +1,24 @@
 import React from 'react'
 import './about.css';
+import tee from '../components/images/tee.png';
+
 export default function about() {
   return (
     <div className='container' id='about'> 
     <h1 className="text-center text-dark my-5">About</h1>
-
-     <div id='about_container'>
-        <p className=" " id='paragraph' style={{fontSize:"15px", color:"black"}}> 
+    
+    
+    <div  id='about_start'>
+    <div className='about_pic' style={{width:"300px", height:"400px"}}><img src={tee} alt=''></img></div>
+    <div className='about_otherContent'>
+    <div id='about_container'>
+        <p className=" " id='paragraph' style={{fontSize:"12px", color:"black"}}> 
         I have completed a degree that allowed me to major in Information Systems and midst its completion,
         I became curious on learning about coding after seeing Women In Tech who would talk about their 
         journeys but at that time I had no vast information of where to go or where to start. 
         I got an opportunity to join the Absa learnership this year and has been a life changing experience.</p>
 
-      <p className='' id='paragraph' style={{fontSize:"15px", color:"black"}}>I now have experience in a number of coding languages and frameworks. I am still learning and 
+      <p className='' id='paragraph' style={{fontSize:"12px", color:"black"}}>I now have experience in a number of coding languages and frameworks. I am still learning and 
         improving my skills continuously. I believe web design can be more diverse and inspiring,  
         with a mission to present the possibilities of web design. I am pursuing new expressions through
         experiments and thoughts.</p>
@@ -29,6 +35,18 @@ export default function about() {
      </div>
      
     </div>
+
+
+
+    </div>
+
+    
+
+
+
+
+    </div>
+   
   
     
   )

@@ -16,11 +16,11 @@ function home() {
   <div  className='' id="homeOpen">
     <div className="container d-md-flex" id='home' >
       <div className="m-5" id="picture"><Image src={image} fluid /></div> 
-       <div className="m-5" id="b1" style={{position:"relative", left:"-10%", top:"30px"}}>
+       <div className="m-5" id="b1" style={{position:"relative", left:"-10%", top:"30px"}} > 
         <h3 className="text-start text-dark my-5">Thulisile Twesha <br/>
          Junior Software Developer</h3>
         
-        <p  style={{color:'black',fontSize:"15px"}}><b>
+        <p  style={{color:'black',fontSize:"12px"}}><b>
           I am a Junior Web Developer who is interested in 
           Front-end project.I am a dedicated, and hardworking 
           person. My goal is to create amazing websites,and web 

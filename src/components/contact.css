@@ -104,14 +104,19 @@ h1{
 .map{
  
   height: 200px;
+  width: 200px;
 }
 .recaptcha{
   transform: scale(0.8); 
   transform-origin: 0 0;
 }
+.form{
+  width: 300px;
+  margin-left: 200px;
+}
 
 }
-/*small mobile screens*/
+/*small mobile screens
 @media (min-width:320px)  and (max-width:389px){
   #allIcon{
  position: relative;
@@ -127,7 +132,7 @@ h1{
   transform-origin: 0 0;
 }
 
-}
+}*/
 
 
 

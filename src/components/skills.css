@@ -18,6 +18,9 @@
   #box{
     background-color:antiquewhite;
     display: flex;
+    display: flex; /* Center align content horizontally and vertically */
+    justify-content: center; /* Center align content horizontally */
+    align-items: center; /* Center align content vertically */
     width: 200px;
     height: 150px;
     margin: 10px;
@@ -33,17 +36,17 @@
 }
 @media (min-width:375px)and (max-width:450px) {
   #skills{
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; */
+   display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   
   }
   #box{
     background-color:antiquewhite;
-    display: flex;
- 
+    display: flex; /* Center align content horizontally and vertically */
+    justify-content: center; /* Center align content horizontally */
+    align-items: center; /* Center align content vertically */
     width: 150px;
     height: 150px;
     margin: 10px;
@@ -81,7 +84,6 @@
   #box{
     background-color:antiquewhite;
     display: flex;
- 
     width: 150px;
     height: 150px;
     margin: 10px;

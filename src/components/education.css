@@ -24,7 +24,7 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    transform: scale(0.5); 
+
    
   }
   
@@ -35,6 +35,7 @@
             box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
     border-radius: 5px;
     color: white;
+    font-size: 12px;
     padding: 1.75rem;
     transition: 0.4s ease;
     overflow-wrap: break-word !important;
@@ -49,7 +50,8 @@
   .allTimeline{
     position: relative;
     right: 90px;
-    top: 5px;
+    top: 60px;
+    margin-left: 100px;
     /* transform: scale(0.5);  */
     
    
@@ -60,13 +62,14 @@
 
   /*MEDIA QUERY*/
   
-  @media (min-width:320px) and (min-width: 768px) {
+  @media (min-width:320px) and (min-width: 500px) {
     .timeline {
      display: grid;
     grid-template-columns: 1fr 3px 1fr; 
     /* transform: scale(0.6);  */
     
     }
+  
     .timeline-middle {
       position: relative;
       background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
@@ -88,15 +91,15 @@
               transform: translateX(-50%);
     }
 
-    .allTimeline{
+    /* .allTimeline{
       position: relative;
       right: 90px;
       bottom: 230px;
-    }
+    } */
     
   .education{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     
   }
   .edHeading{
@@ -107,6 +110,6 @@
     justify-content: center;
    
     
-  }
+  } 
     
   }

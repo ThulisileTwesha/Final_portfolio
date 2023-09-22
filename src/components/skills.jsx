@@ -16,14 +16,14 @@ function skills() {
             <div className="center-contact mx-auto"><h1>Skills</h1></div>  
        
       <div className="m-5 d-md-flex" id="skills">
-        <div className="m-5" id="box"><img src={python} alt='' width={150}></img></div>
-        <div className="m-5" id="box"><img src={git} alt='' width={150}></img></div>
+        <div className="m-5" id="box"><img src={python} alt='' width={140}></img></div>
+        <div className="m-5" id="box"><img src={git} alt='' width={140}></img></div>
         <div className="m-5" id="box"><img src={vs} alt='' width={150}></img></div>
-        <div className="m-5" id="box"><img src={html} alt='' width={150}></img></div>
+        <div className="m-5" id="box"><img src={html} alt='' width={130}></img></div>
         <div className="m-5" id="box"><img src={css} alt='' width={150}></img></div>
         <div className="m-5" id="box"><img src={js} alt='' width={150}></img></div>
-        <div className="m-5" id="box"><img src={picture} alt='' width={150}></img></div>
-        <div className="m-5" id="box"><img src={pic} alt='' width={150}></img></div>
+        <div className="m-5" id="box"><img src={picture} alt='' width={70}></img></div>
+        <div className="m-5" id="box"><img src={pic} alt='' width={120}></img></div>
       </div>
     </div>
     </div>
