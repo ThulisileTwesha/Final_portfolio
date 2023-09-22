@@ -4,10 +4,6 @@
     height: 100vh;
     
   }
-  
-  
-  
-  
   .edHeading{
     position: relative;
     top: 30px;
@@ -22,17 +18,18 @@
     top: 5px; 
   }
   .timeline {
-    width: 60%;
+    width: 80%;
     height: auto;
     max-width: 800px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    transform: scale(0.6); 
+    transform: scale(0.5); 
+   
   }
   
   .timeline-content {
-     padding: 20px;
+    padding: 20px;
     background: #1f1f1f;
     -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
             box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
@@ -43,18 +40,31 @@
     overflow-wrap: break-word !important;
     margin: 1rem;
     margin-bottom: 20px;
-    border-radius: 6px; 
+    border-radius: 6px;
   }
   
   .timeline-component {
-     margin: 0px 10px 10px 10px; 
+    margin: 0px 10px 10px;
   }
+  .allTimeline{
+    position: relative;
+    right: 90px;
+    top: 5px;
+    /* transform: scale(0.5);  */
+    
+   
+  }
+ 
+
   
-  @media screen and (min-width: 320px) {
+
+  /*MEDIA QUERY*/
+  
+  @media (min-width:320px) and (min-width: 768px) {
     .timeline {
      display: grid;
     grid-template-columns: 1fr 3px 1fr; 
-    transform: scale(0.5); 
+    /* transform: scale(0.6);  */
     
     }
     .timeline-middle {
@@ -80,7 +90,7 @@
 
     .allTimeline{
       position: relative;
-      right: 100px;
+      right: 90px;
       bottom: 230px;
     }
     
@@ -92,7 +102,7 @@
   .edHeading{
     position: relative;
     top: 30px;
-    right: 20px;
+    right:90px;
     display: flex;
     justify-content: center;
    

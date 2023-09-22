@@ -20,7 +20,7 @@ function home() {
         <h3 className="text-start text-dark my-5">Thulisile Twesha <br/>
          Junior Software Developer</h3>
         
-        <p><b>
+        <p  style={{color:'black',fontSize:"15px"}}><b>
           I am a Junior Web Developer who is interested in 
           Front-end project.I am a dedicated, and hardworking 
           person. My goal is to create amazing websites,and web 

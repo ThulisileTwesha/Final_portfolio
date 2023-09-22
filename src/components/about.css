@@ -37,11 +37,12 @@
      
       width:310px;
       text-align: justify;
-      font-size: 12px;
+     
       margin-left: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
+     
     }
     #about{
       width: 100%;
