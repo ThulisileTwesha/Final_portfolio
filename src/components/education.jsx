@@ -26,7 +26,7 @@ function about() {
                             <br/>
                             <b>Institution</b>: UWC <br/>
                             <br/>
-                            <b>Year obtained</b>: Current
+                            <b>Year obtained</b>: 2024
                         </p>
                     </div>
                     <div className="timeline-component timeline-content">

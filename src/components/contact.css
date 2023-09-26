@@ -14,8 +14,8 @@ h1{
      
     height: 100vh;
     width: 100%;
-    margin-left: 120px;
-  
+    /* margin-left: 120px;
+   */
   }
   .form{
     
@@ -24,9 +24,10 @@ h1{
     padding: 10px;
     border: black;
     border-style:dashed;
-    border-radius: 10px;
+    border-radius: 10px; 
    
   }
+
  
   .Icons{
     
@@ -43,6 +44,7 @@ h1{
     /*display: flex;*/
     justify-content: center;
     text-align: center;
+    color: black;
 
     
     
@@ -111,28 +113,12 @@ h1{
   transform-origin: 0 0;
 }
 .form{
-  width: 300px;
-  margin-left: 200px;
+  width: 320px;
+  
 }
 
-}
-/*small mobile screens
-@media (min-width:320px)  and (max-width:389px){
-  #allIcon{
- position: relative;
- bottom: 20%; 
-}
-.map{
- 
-  height: 250px;
-  width: 200px;
-}
-.recaptcha{
-  transform: scale(0.6); 
-  transform-origin: 0 0;
-}
+}  
 
-}*/
 
 
 

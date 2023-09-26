@@ -52,7 +52,7 @@
     right: 90px;
     top: 60px;
     margin-left: 100px;
-    /* transform: scale(0.5);  */
+    /* transform: scale(0.5);   */
     
    
   }
@@ -62,11 +62,11 @@
 
   /*MEDIA QUERY*/
   
-  @media (min-width:320px) and (min-width: 500px) {
+  @media (min-width:320px) and (max-width:400px ) {
     .timeline {
      display: grid;
     grid-template-columns: 1fr 3px 1fr; 
-    /* transform: scale(0.6);  */
+     /* transform: scale(0.8);   */
     
     }
   
@@ -91,11 +91,12 @@
               transform: translateX(-50%);
     }
 
-    /* .allTimeline{
+     .allTimeline{
       position: relative;
-      right: 90px;
-      bottom: 230px;
-    } */
+      top: 400px;
+     
+      
+    } 
     
   .education{
     width: 100%;
@@ -104,9 +105,7 @@
   }
   .edHeading{
     position: relative;
-    top: 30px;
-    right:90px;
-    display: flex;
+    top: 350px;
     justify-content: center;
    
     
