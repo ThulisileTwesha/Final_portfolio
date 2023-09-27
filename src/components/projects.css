@@ -7,21 +7,13 @@ h1{
 
     justify-content: center;
     text-align: center;
-    font-size: 50px; 
+    font-size: 20px; 
   }
-#projects{
-    /*display: flex;*/
-    /* flex-direction: column;
-    width: 100%; */
-    /* height: 100vh;
-    */
-    
-    
-  }
+
   #startProjects{
-    /* display: flex;*/
+   
     width: 100%;
-    padding: 100px;
+    height: 70vh;
     justify-content: space-evenly; 
 
    
@@ -82,16 +74,14 @@ h1{
     transform: rotateY(180deg); 
   } 
 
-  @media (min-width:320px)  and (max-width:450px){
+  @media (min-width:320px)  and (max-width:844px){
     #startProjects{
-      width: 100%;
-      justify-content: space-evenly;
-    
-      position: relative;
-      margin-left: 200px;
-    
-      bottom: 60px;
-      
+      width: 50%;
+      height: 110vh;
+      margin-left: 30px;
+      justify-content: center;
+      align-items: center;
+   
     }
  
     

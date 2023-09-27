@@ -7,10 +7,10 @@ export default function about() {
     <div className='container' id='about'> 
     <h1 className="text-center text-dark my-5">About</h1>
     
+
     
-    <div  id='about_start'>
-    <div className='about_pic' style={{width:"300px", height:"400px"}}><img src={tee} alt=''></img></div>
     <div className='about_otherContent'>
+     <div className='about_pic' style={{width:"300px", height:"400px"}}><img src={tee} alt=''></img></div> 
     <div id='about_container'>
         <p className=" " id='paragraph' style={{fontSize:"12px", color:"black"}}> 
         I have completed a degree that allowed me to major in Information Systems and midst its completion,
@@ -22,7 +22,7 @@ export default function about() {
         improving my skills continuously. I believe web design can be more diverse and inspiring,  
         with a mission to present the possibilities of web design. I am pursuing new expressions through
         experiments and thoughts.</p>
-     </div>
+     
   
 
      <div className='row mb-3' id='aboutInfo'>
@@ -35,10 +35,10 @@ export default function about() {
      </div>
      
     </div>
-
-
-
     </div>
+
+
+
 
     
 

@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 h1{
     display: flex;
     justify-content: center;
@@ -14,18 +10,28 @@ h1{
      
     height: 100vh;
     width: 100%;
-    /* margin-left: 120px;
-   */
+   
+  }
+  #main_contact{
+    width: 50%;
+    height: 100vh;
   }
   .form{
     
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     border: black;
     border-style:dashed;
     border-radius: 10px; 
-   
+    height: 70vh;
+    width: 60vh;
+  }
+  #allForm{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-left: 130px;
   }
 
  
@@ -40,11 +46,12 @@ h1{
   .boxIcons{
     padding: 40px;
   }
-  h2{
+  .contact-h2{
     /*display: flex;*/
     justify-content: center;
     text-align: center;
     color: black;
+    
 
     
     
@@ -90,30 +97,66 @@ h1{
     font-weight:700;
   }
   [type="submit"]:hover { background:#CC4949; }
+  
   #allIcon{
     height: 300px;
     position: relative;
-    top: 200px;
+    top: 100px;
+    
+ }
+ .map{
+  height: 300px;
+  height: 250px;
  }
 
 
 
- @media (min-width:375px)  and (max-width:450px){
-  #allIcon{
- position: relative;
- top: 10%;
-}
-.map{
+ @media (min-width:375px)  and (max-width:600px){
  
-  height: 200px;
-  width: 200px;
+#contactMe{
+     
+  height: 100vh;
+  width: 100%;
+ 
 }
-.recaptcha{
-  transform: scale(0.8); 
-  transform-origin: 0 0;
+#allForm{
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  width: 80%;
+ 
+  
+ 
 }
 .form{
-  width: 320px;
+    
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: black;
+  border-style:dashed;
+  border-radius: 10px; 
+  height: 70vh;
+  width: 40vh;
+}
+
+.Icons{
+    
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center; */
+
+ 
+}
+#allIcon{
+  
+  width: 300px;
+  position: relative;
+  bottom: 200px;
+
+ 
+  
+ 
   
 }
 

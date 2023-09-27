@@ -1,11 +1,9 @@
 import React from "react";
 import './experience.css';
-import photo from '../components/images/photo.jpg';
-import Card from 'react-bootstrap/Card';
 
 function experience() {
-  return<div className="" > <div className="container" id="experiences">
-             <div className="center-contact mx-auto"><h1>Experience</h1></div>  
+  return<div className="container" id="experiences">
+          <h1 className="text-center">Experience</h1>
   
      <div className='experience'>
           <article class="card">
@@ -19,7 +17,7 @@ function experience() {
             <div class="card__content | flow">
               <div class="card__content--container | flow">
                 <h2 class="card__title">Software Developer Intern</h2>
-                <p class="card__description" style={{color:"white", fontSize:"10px"}}>
+                <p class="card__description" style={{color:"white", fontSize:"11px"}}>
                 
                         30 January 2023 - Present
                         <br /> 
@@ -77,16 +75,6 @@ function experience() {
       </div>
                 
 
- 
-
-
-
-
-
-
-
-
-  </div>
 </div>;
 }
 
