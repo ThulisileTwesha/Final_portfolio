@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 } */
+/* .div1{
+  background-color: aqua;
+  width: 50vw !important;
+} */
+
+body{
+  background-color: aqua;
+}
+
+html{
+  width: 100vw;
+}

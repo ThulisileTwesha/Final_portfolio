@@ -1,5 +1,16 @@
+/* body{
+  overflow: hidden;
+} */
+
+body{
+  /* background-color: aqua; */
+  width: 100vw;
+  /* border: 2px solid goldenrod; */
+}
+
 #homeOpen{
-   
+   /* background-color: rgb(117, 14, 14); */
+   max-width: 100%;
   }
   
 #home{
@@ -24,17 +35,28 @@
 #b1{
   margin-top: 90px;
 }
+*{
+  /* border: solid black 2px; */
+}
 
 @media screen and (max-width:844px) {
 
   #home{
-  
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   height: 100vh; 
-  margin-left: 50px;
+  top: 0;
+  /* margin-left: 50px; */
+}
+#homeOpen{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 110vh; 
 }
 
 #b1 p{
@@ -47,31 +69,36 @@
   font-size: 10px;
   
 }
+#b1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
 #picture{
 height: 230px;
 width: 230px;
 margin: 20px;
 }
 
-#homeOpen{
 
-  width: 50%;
-  height: 100vh; 
-
-}
 
  .btns{
   display: flex;
-  flex-direction: row;
-  width: 400px;
+  gap:20px;
+  /* justify-content: center; */
+  /* flex-direction: row; */
+  /* width: 400px; */
  }
  .btn1{
-  margin-right: 20px;
+  /* margin-right: 20px; */
 
 
  }
  .btn2{
-  margin-left: 40px;
+  /* margin-left: 40px; */
   
  }
 

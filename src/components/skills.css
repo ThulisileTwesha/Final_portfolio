@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
+    /* overflow-x: hidden; */
   }
  
   #skills{
@@ -13,6 +14,10 @@
     justify-content: center;
    
   
+  }
+  #skillsStart{
+    /* background-color: #8A2387; */
+/* max-width: 100vw !important; */
   }
   
   #box{

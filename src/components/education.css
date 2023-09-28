@@ -1,8 +1,8 @@
 
   .education{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    
+
   }
   .edHeading{
     position: relative;
@@ -27,6 +27,8 @@
 
    
   }
+
+ 
   
   .timeline-content {
     padding: 20px;
@@ -49,7 +51,7 @@
   }
   .allTimeline{
     position: relative;
-    right: 90px;
+    /* right: 90px; */
     top: 60px;
    
     /* transform: scale(0.5);   */
@@ -61,7 +63,22 @@
   
 
   /*MEDIA QUERY*/
-  
+  @media (max-width:844px){
+    .education{
+     height: 200vh;
+     
+    }
+
+     .allTimeline{
+      position: relative;
+      /* top: 350px;
+      margin-left: 40px; */
+      /* width: 100vw; */
+      margin-top: 20px;
+      
+     }
+      
+   }
   @media (min-width:320px)   {
     .timeline {
      display: grid;

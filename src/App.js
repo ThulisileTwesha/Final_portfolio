@@ -12,7 +12,7 @@ import Education from "./components/education";
 
 function App() {
   return (
-    <div className="text-center">
+    <div className="div1">
       <Anav />
       <Home />
       <About />

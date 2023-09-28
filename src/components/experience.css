@@ -222,7 +222,7 @@
     
    
   }
-  @media (min-width:375px) and (max-width:844px) {
+  @media(max-width:844px) {
     .experience{
       justify-content: center;
       flex-direction: column;
@@ -232,7 +232,7 @@
     
     #experiences{
     width: 50%;
-    height: 100vh; 
+    height: 120vh; 
     
    
        
