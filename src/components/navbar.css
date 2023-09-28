@@ -3,9 +3,10 @@
 }
 .bg-body-tertiary{
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 9999;
+    overflow-x: hidden;
     /* background-color:blue; */
 }

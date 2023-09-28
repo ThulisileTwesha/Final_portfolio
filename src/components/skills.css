@@ -39,7 +39,7 @@
 #box:hover{
   transform: rotate(360deg);
 }
-@media (min-width:375px)and (max-width:450px) {
+@media (max-width:844px) {
   #skills{
    display: flex;
     flex-direction: column;
